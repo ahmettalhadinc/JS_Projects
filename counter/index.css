@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#all{
+   background-color: aliceblue;
+    margin: 300px;
+
+    height: 200px;
+}
+.btn{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   margin-left: 250px;
+   border-color: black;
+   border-width: 2p;
+   border-radius: 10px;
+   background-color: white;
+   transition: ease-in-out 0.2s;
+   
+}
+.btn:hover{
+    background-color: grey;
+}
+
+#number{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+

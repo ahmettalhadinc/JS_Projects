@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 66, 66);
+}
+i{
+    color: whitesmoke;
+}
+
+.resultcontainer{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   margin-top: 50px;
+}
+.result{
+    margin-left: 100px;
+    color: palegreen;
+    font-size: 30px;
+    font-family: cursive;
+    display: none;
+    
+}
+
+.nextplayer{
+    
+    color: rgb(69, 151, 228);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    text-align: center;
+    display: none;
+}
+.container{
+   
+    display: flex;
+    margin: 150px 150px 50px 150px;
+    
+}
+.hand{
+    margin-left: 250px;
+    margin-bottom: 20px;
+   
+    text-align: center;
+   
+   border-radius: 5px;
+   outline: 20px solid orange; 
+   padding: 20px; 
+   cursor: pointer;
+}
+.hand:hover{
+    background-color: grey;
+}
+.names{
+    font-size: 45px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    color:  cornsilk;
+    font-size: 60px;
+}
+.buttonn{
+    text-align: center;
+}
+ .btnn{
+   text-align: center;
+    border-radius: 10px;
+    border: 5px solid orange;
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+    margin: 40px auto;
+transition: ease-in-out 0.5s;
+   
+}
+.btnn:hover{
+    background-color: white;
+    color: red;
+    border: 5px solid red;
+}
